@@ -1,20 +1,39 @@
-📚 Corpus Text Processing
-This repository contains a basic introduction to text corpus processing using Python. The project demonstrates techniques such as tokenization, frequency analysis, and other fundamental NLP operations. It includes:
+# 🧾 Corpus Text Processing
 
-🔧 Files Included
-Spark-Course-Description.txt: A sample text file used as the corpus.
+This project focuses on fundamental Natural Language Processing (NLP) techniques for **corpus-level text preprocessing** using Python. It demonstrates how to process raw text data from a `.txt` file and extract meaningful information.
 
-corpus_text-processing.ipynb: A Jupyter notebook illustrating how to:
+## 📁 Repository Contents
 
-Read and clean the corpus
+- `Spark-Course-Description.txt` – Raw input corpus used for processing.
+- `corpus_text-processing.ipynb` – Jupyter Notebook with:
+  - Corpus loading and cleaning
+  - Tokenization, stopword removal
+  - Lemmatization and stemming
+  - Frequency analysis and basic NLP insights
 
-Tokenize text into words
+## ✨ Key Features
 
-Remove stopwords and perform stemming
+- Clean and preprocess raw corpus text
+- Generate token frequency distributions
+- Compare lemmatization vs stemming
+- Visualize word frequency using graphs
+1. Install required libraries:
 
-Compute word frequencies
+bash
+Copy
+Edit
+pip install -r requirements.txt
+2. Launch the Jupyter notebook:
 
-Visualize processed data
+bash
+Copy
+Edit
+jupyter notebook corpus_text-processing.ipynb
+3. 🧰 Libraries Used
+nltk
 
-🚀 Use Case
-Ideal for beginners exploring Natural Language Processing and text data analysis using Python and basic NLP libraries such as nltk.
+re
+
+matplotlib
+
+collections
