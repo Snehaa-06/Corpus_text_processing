@@ -23,12 +23,14 @@ bash
 Copy
 Edit
 pip install -r requirements.txt
+
 2. Launch the Jupyter notebook:
 
 bash
 Copy
 Edit
 jupyter notebook corpus_text-processing.ipynb
+
 3. 🧰 Libraries Used
 nltk
 
